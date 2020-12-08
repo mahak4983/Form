@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
     return (
         <div>
-            Coming Soon
+            <h1>Coming Soon</h1> 
         </div>
     )
 }

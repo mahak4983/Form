@@ -5,6 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import Navigation from './components/Navigation'
 import Home from './components/Home'
+import Form from './components/Form'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -36,8 +37,10 @@ function App() {
       >
         <div className={classes.toolbar} />
         <Switch>
-          {/* Home page */}
+          {/* Home page (DashBoard Content) */}
           <Route exact path="/" component={Home} />
+          {/* Order Form */}
+          <Route exact path="/orders" component={Form} />
         </Switch>
       </main>
     </div>
