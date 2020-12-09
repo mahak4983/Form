@@ -176,22 +176,6 @@ const BuyerDetails = () => {
             />
           </Grid>
         </Grid>
-        {/* <div
-          style={{
-            display: 'flex',
-            flexDirection: 'row',
-            justifyContent: 'flex-end',
-            margin: 20
-          }}
-        >
-
-          <Button
-            variant="contained"
-            color="primary"
-          >
-            Next
-              </Button>
-        </div> */}
       </form>
     </CardContent>
   )

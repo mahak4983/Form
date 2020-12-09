@@ -6,6 +6,7 @@ import {
 } from '@material-ui/core';
 import BuyerDetails from './BuyerDetails';
 import ProductDimensions from './ProductDimensions';
+import ProductDetails from './ProductDetails';
 
 
 
@@ -35,7 +36,7 @@ function getStepContent(step) {
         case 1:
              return <ProductDimensions/>
         case 2:
-             return <div>Henlo</div>;
+             return <ProductDetails/>
         default:
             throw new Error('Unknown step');
     }

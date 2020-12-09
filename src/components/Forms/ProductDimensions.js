@@ -67,7 +67,7 @@ const ProductDimensions = () => {
     return (
         <CardContent style={{ padding: 0 }}>
             <Typography className={classes.title} gutterBottom style={{ backgroundColor: '#66bb6a' }}>
-                Product Details
+                Product Dimensions
         </Typography>
             <form className={classes.form}>
                 
