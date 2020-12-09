@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import Navigation from './components/Navigation'
 import Home from './components/Home'
-import Form from './components/Form'
+import Form from './components/Forms/Checkout'
 
 const useStyles = makeStyles((theme) => ({
   root: {
